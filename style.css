@@ -1,0 +1,130 @@
+@charset "utf-8";
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #7549B1;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+#navigation {
+	height: 35px;
+	background-color: #4FB7C4;
+	width: 900px;
+	margin-bottom: 29px;
+	text-align: left;
+	text-indent: 50px;
+	margin-top: 0px;
+	padding-top: 1px;
+	padding-bottom: 36px;
+	}
+
+#navigation li {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: inline;
+	list-style-type: none;
+	font-size: 25px;
+	}
+#navigation a {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	background-color: #4FB7C4;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 7px;
+	}
+
+#navigation a:hover {
+	background-color: #FF7678;
+	color: #FFFFFF;
+	}
+#navigation a:active {
+	background-color: #FF7678;
+	}
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: 90px;
+	text-align: left;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	float: left;
+	padding-top: 14px;
+}
+#cta {
+	background-color: #FF0004;
+	width: 450px;
+	height: 70px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 55px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	font-weight: bold;
+	margin-left: -52px;
+	margin-bottom: 150px;
+	margin-top: 150px;
+}
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	}
+#container {
+	max-width: 900px;
+	min-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	}
+#announcements {
+	text-align: center;
+	max-width: 250px;
+	min-width: 250px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	background-color: #FDD023;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	}
+#main {
+	text-align: left;
+	max-width: 570px;
+	min-width: 570px;
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	background-color: #FF9600;
+	}
+footer {
+	height: 100px;
+	background-color: #AFAFAF;
+	clear: both;
+}
+header {
+	height: 150px;
+	background-color: #FF9600;
+	margin-top: 0px;
+}
+#cos {
+}
