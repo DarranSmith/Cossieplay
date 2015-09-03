@@ -1,139 +1,144 @@
 @charset "utf-8";
 body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-left: 0px;
 	margin-right: 0px;
-	background-color: #7549B1;
+	background-color: #EBEBEB;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
 
 #navigation {
-	height: 35px;
-	background-color: #4FB7C4;
 	width: 900px;
-	margin-bottom: 29px;
-	text-align: left;
-	text-indent: 50px;
-	margin-top: 0px;
-	padding-top: 1px;
-	padding-bottom: 36px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;	
 	}
-
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
 #navigation li {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	display: inline;
-	list-style-type: none;
-	font-size: 25px;
+	float: left;
+	font-size: 18px;
 	}
-#navigation a {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	background-color: #4FB7C4;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	padding-top: 7px;
+#navigation a:link, #navigation a:visited {
+	display: block;
+	width: 172px;
+	font-weight: bold;
+	color: #030303;
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
 	}
-
 #navigation a:hover {
-	background-color: #FF7678;
-	color: #FFFFFF;
+	background-color: #EBEBEB;
+	color: #FF6668;
+
 	}
-#navigation a:active {
-	background-color: #FF7678;
+#navigation a.thispage {
+	background-color: #EBEBEB;
+	color: #E30003;
 	}
 h1 {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-size: 90px;
 	text-align: left;
 	padding-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 9px;
 	margin-right: 0px;
 	float: left;
-	padding-top: 14px;
+	margin-top: 0px;
 }
 #cta {
-	background-color: #FF0004;
+	background-color: #C30003;
 	width: 450px;
 	height: 84px;
 	text-align: center;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 65px;
-	border-bottom-right-radius: 20px;
-	border-top-right-radius: 20px;
+	border-bottom-right-radius: 35px;
+	border-top-right-radius: 35px;
 	font-weight: bold;
-	margin-left: -75px;
-	margin-bottom: 150px;
-	margin-top: 175px;
-	border-width: thick;
 	-webkit-box-shadow: 4px 4px 15px 0 #0A0A0A;
 	box-shadow: 4px 4px 15px 0 #0A0A0A;
+	position: relative;
+	top: 51px;
+	left: 10%;
 	}
 #cta a {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	color: #FDD023;
 	}
 h2 {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	}
-#container {
-	max-width: 900px;
-	min-width: 900px;
+#containermain {
+	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #FCFCFC;
+	overflow-y: auto;
+	margin-bottom: 0px;
 	margin-top: 0px;
-	min-height: 699px;
 	}
-#announcements {
-	text-align: center;
+#rightdiv {
+	text-align: left;
 	max-width: 250px;
 	min-width: 250px;
 	float: right;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-	background-color: #FDD023;
+	margin-bottom: 0px;
+	background-color: #FCFCFC;
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
-	margin-bottom: 20px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height: 100%;
 	}
-#main {
+#leftdiv {
 	text-align: left;
 	max-width: 570px;
 	min-width: 570px;
-	float: left;
+	float: right;
 	padding-top: 20px;
 	padding-right: 20px;
-	padding-left: 20px;
 	padding-bottom: 20px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	background-color: #FF9600;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-left: 20px;
+	background-color: #FCFCFC;
+	margin-bottom: 26px;
+	position: relative;
 	}
 footer {
-	height: 100px;
-	background-color: #FF9600;
+	height: 200px;
+	background-color: #FCFCFC;
 	clear: both;
+	border-top-color: #030303;
+	border-top-style: solid;
 }
 header {
-	height: 150px;
-	background-color: #FF9600;
+	height: 145px;
+	background-color: #FCFCFC;
 	margin-top: 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
 }
+#title {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+#footnotes {
+	color: #AAAAAA;
+	font-weight: bold;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	}
